@@ -1,0 +1,637 @@
+[32mINFO[0m:     [09-01-2024 18:04:55] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [09-01-2024 18:04:55] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [09-01-2024 18:04:55] Starting component System
+[36mDEBUG[0m:    [09-01-2024 18:04:55] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [09-01-2024 18:04:55] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [09-01-2024 18:04:55] Starting component SqliteDB
+[36mDEBUG[0m:    [09-01-2024 18:04:55] Starting component Posthog
+[36mDEBUG[0m:    [09-01-2024 18:04:55] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [09-01-2024 18:04:55] Starting component SegmentAPI
+[32mINFO[0m:     [09-01-2024 18:04:55] Started server process [[36m2736[0m]
+[32mINFO[0m:     [09-01-2024 18:04:55] Waiting for application startup.
+[32mINFO[0m:     [09-01-2024 18:04:55] Application startup complete.
+[32mINFO[0m:     [09-01-2024 18:04:55] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [12-01-2024 12:13:38] Shutting down
+[32mINFO[0m:     [12-01-2024 12:13:38] Waiting for application shutdown.
+[32mINFO[0m:     [12-01-2024 12:13:38] Application shutdown complete.
+[32mINFO[0m:     [12-01-2024 12:13:38] Finished server process [[36m2736[0m]
+[32mINFO[0m:     [12-01-2024 12:13:40] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [12-01-2024 12:13:40] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [12-01-2024 12:13:40] Starting component System
+[36mDEBUG[0m:    [12-01-2024 12:13:40] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [12-01-2024 12:13:40] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [12-01-2024 12:13:40] Starting component SqliteDB
+[36mDEBUG[0m:    [12-01-2024 12:13:40] Starting component Posthog
+[36mDEBUG[0m:    [12-01-2024 12:13:40] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [12-01-2024 12:13:40] Starting component SegmentAPI
+[32mINFO[0m:     [12-01-2024 12:13:40] Started server process [[36m4139[0m]
+[32mINFO[0m:     [12-01-2024 12:13:40] Waiting for application startup.
+[32mINFO[0m:     [12-01-2024 12:13:40] Application startup complete.
+[32mINFO[0m:     [12-01-2024 12:13:40] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [12-01-2024 12:16:28] Shutting down
+[32mINFO[0m:     [12-01-2024 12:16:28] Waiting for application shutdown.
+[32mINFO[0m:     [12-01-2024 12:16:28] Application shutdown complete.
+[32mINFO[0m:     [12-01-2024 12:16:28] Finished server process [[36m4139[0m]
+[32mINFO[0m:     [12-01-2024 12:16:31] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [12-01-2024 12:16:31] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [12-01-2024 12:16:31] Starting component System
+[36mDEBUG[0m:    [12-01-2024 12:16:31] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [12-01-2024 12:16:31] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [12-01-2024 12:16:31] Starting component SqliteDB
+[36mDEBUG[0m:    [12-01-2024 12:16:31] Starting component Posthog
+[36mDEBUG[0m:    [12-01-2024 12:16:31] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [12-01-2024 12:16:31] Starting component SegmentAPI
+[32mINFO[0m:     [12-01-2024 12:16:31] Started server process [[36m4183[0m]
+[32mINFO[0m:     [12-01-2024 12:16:31] Waiting for application startup.
+[32mINFO[0m:     [12-01-2024 12:16:31] Application startup complete.
+[32mINFO[0m:     [12-01-2024 12:16:31] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [12-01-2024 12:18:35] ::1:52646 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[31mERROR[0m:    [12-01-2024 12:20:00] Expected collection name that (1) contains 3-63 characters, (2) starts and ends with an alphanumeric character, (3) otherwise contains only alphanumeric characters, underscores or hyphens (-), (4) contains no two consecutive periods (..) and (5) is not a valid IPv4 address, got Manoj Data
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 97, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 80, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_utils.py", line 88, in collapse_excgroups
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 94, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 746, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 75, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 70, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 299, in app
+    raise e
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 294, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/concurrency.py", line 35, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2134, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/auth/fastapi.py", line 234, in wrapped
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 408, in create_collection
+    return self._api.create_collection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/api/segment.py", line 162, in create_collection
+    check_index_name(name)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/api/segment.py", line 79, in check_index_name
+    raise ValueError(msg)
+ValueError: Expected collection name that (1) contains 3-63 characters, (2) starts and ends with an alphanumeric character, (3) otherwise contains only alphanumeric characters, underscores or hyphens (-), (4) contains no two consecutive periods (..) and (5) is not a valid IPv4 address, got Manoj Data
+[32mINFO[0m:     [12-01-2024 12:20:00] ::1:52663 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[31mERROR[0m:    [12-01-2024 12:20:49] Expected collection name that (1) contains 3-63 characters, (2) starts and ends with an alphanumeric character, (3) otherwise contains only alphanumeric characters, underscores or hyphens (-), (4) contains no two consecutive periods (..) and (5) is not a valid IPv4 address, got Manoj Data 
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 97, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 80, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_utils.py", line 88, in collapse_excgroups
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 94, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 746, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 75, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 70, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 299, in app
+    raise e
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 294, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/concurrency.py", line 35, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2134, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/auth/fastapi.py", line 234, in wrapped
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 408, in create_collection
+    return self._api.create_collection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/api/segment.py", line 162, in create_collection
+    check_index_name(name)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/api/segment.py", line 79, in check_index_name
+    raise ValueError(msg)
+ValueError: Expected collection name that (1) contains 3-63 characters, (2) starts and ends with an alphanumeric character, (3) otherwise contains only alphanumeric characters, underscores or hyphens (-), (4) contains no two consecutive periods (..) and (5) is not a valid IPv4 address, got Manoj Data 
+[32mINFO[0m:     [12-01-2024 12:20:49] ::1:52674 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [12-01-2024 12:21:18] ::1:52680 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[31mERROR[0m:    [12-01-2024 12:23:05] Collection ManojData already exists
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 97, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 80, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_utils.py", line 88, in collapse_excgroups
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 94, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 746, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 75, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 70, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 299, in app
+    raise e
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 294, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/concurrency.py", line 35, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2134, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/auth/fastapi.py", line 234, in wrapped
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 408, in create_collection
+    return self._api.create_collection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/api/segment.py", line 166, in create_collection
+    coll, created = self._sysdb.create_collection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/db/mixins/sysdb.py", line 225, in create_collection
+    raise UniqueConstraintError(f"Collection {name} already exists")
+chromadb.db.base.UniqueConstraintError: Collection ManojData already exists
+[32mINFO[0m:     [12-01-2024 12:23:05] ::1:52689 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [12-01-2024 12:23:23] ::1:52694 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[31mERROR[0m:    [12-01-2024 12:25:48] Collection ManojData1 already exists
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 97, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 80, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_utils.py", line 88, in collapse_excgroups
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 94, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 746, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 75, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 70, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 299, in app
+    raise e
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 294, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/concurrency.py", line 35, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2134, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/auth/fastapi.py", line 234, in wrapped
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 408, in create_collection
+    return self._api.create_collection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/api/segment.py", line 166, in create_collection
+    coll, created = self._sysdb.create_collection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/db/mixins/sysdb.py", line 225, in create_collection
+    raise UniqueConstraintError(f"Collection {name} already exists")
+chromadb.db.base.UniqueConstraintError: Collection ManojData1 already exists
+[32mINFO[0m:     [12-01-2024 12:25:48] ::1:52713 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [12-01-2024 12:25:53] ::1:52727 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 12:28:38] Shutting down
+[32mINFO[0m:     [12-01-2024 12:28:38] Waiting for application shutdown.
+[32mINFO[0m:     [12-01-2024 12:28:38] Application shutdown complete.
+[32mINFO[0m:     [12-01-2024 12:28:38] Finished server process [[36m4183[0m]
+[32mINFO[0m:     [12-01-2024 12:28:40] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [12-01-2024 12:28:40] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [12-01-2024 12:28:40] Starting component System
+[36mDEBUG[0m:    [12-01-2024 12:28:40] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [12-01-2024 12:28:40] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [12-01-2024 12:28:40] Starting component SqliteDB
+[36mDEBUG[0m:    [12-01-2024 12:28:40] Starting component Posthog
+[36mDEBUG[0m:    [12-01-2024 12:28:40] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [12-01-2024 12:28:40] Starting component SegmentAPI
+[32mINFO[0m:     [12-01-2024 12:28:40] Started server process [[36m6229[0m]
+[32mINFO[0m:     [12-01-2024 12:28:40] Waiting for application startup.
+[32mINFO[0m:     [12-01-2024 12:28:40] Application startup complete.
+[32mINFO[0m:     [12-01-2024 12:28:40] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [12-01-2024 12:28:48] ::1:52743 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 12:30:42] ::1:52756 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [12-01-2024 12:30:43] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [12-01-2024 12:30:43] ::1:52756 - "POST /api/v1/collections/aac8ac1c-e3d1-4e8d-8d96-7d1cc5f971be/add HTTP/1.1" 201
+[32mINFO[0m:     [12-01-2024 12:32:41] ::1:52776 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [12-01-2024 12:32:42] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [12-01-2024 12:32:42] ::1:52776 - "POST /api/v1/collections/00f635e3-f738-4c4d-81dc-f77d2cdcfd63/add HTTP/1.1" 201
+[31mERROR[0m:    [12-01-2024 12:42:47] Collection ManojData1011 already exists
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 97, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/streams/memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 80, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_utils.py", line 88, in collapse_excgroups
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 94, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 746, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 75, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 55, in wrapped_app
+    raise exc
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/_exception_handler.py", line 44, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/routing.py", line 70, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 299, in app
+    raise e
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 294, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/starlette/concurrency.py", line 35, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2134, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/auth/fastapi.py", line 234, in wrapped
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/server/fastapi/__init__.py", line 408, in create_collection
+    return self._api.create_collection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/api/segment.py", line 166, in create_collection
+    coll, created = self._sysdb.create_collection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swati/anaconda3/envs/Chroma/lib/python3.11/site-packages/chromadb/db/mixins/sysdb.py", line 225, in create_collection
+    raise UniqueConstraintError(f"Collection {name} already exists")
+chromadb.db.base.UniqueConstraintError: Collection ManojData1011 already exists
+[32mINFO[0m:     [12-01-2024 12:42:47] ::1:52825 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [12-01-2024 12:42:57] ::1:52829 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [12-01-2024 12:42:59] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [12-01-2024 12:42:59] ::1:52829 - "POST /api/v1/collections/1fc0cc7f-8af9-42e5-858b-89f389530af6/add HTTP/1.1" 201
+[32mINFO[0m:     [12-01-2024 13:00:47] ::1:52969 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [12-01-2024 13:00:48] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [12-01-2024 13:00:48] ::1:52969 - "POST /api/v1/collections/b477e59d-c73c-4e68-9b83-0b72e7909af1/add HTTP/1.1" 201
+[32mINFO[0m:     [12-01-2024 13:06:24] ::1:53004 - "GET /api/v1/collections/ManojData3?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:06:25] ::1:53004 - "POST /api/v1/collections/b477e59d-c73c-4e68-9b83-0b72e7909af1/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:08:27] ::1:53026 - "GET /api/v1/collections/ManojData3?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:08:28] ::1:53026 - "POST /api/v1/collections/b477e59d-c73c-4e68-9b83-0b72e7909af1/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:11:48] ::1:53056 - "GET /api/v1/collections/ManojData3?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:11:49] ::1:53056 - "POST /api/v1/collections/b477e59d-c73c-4e68-9b83-0b72e7909af1/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:16:09] ::1:53079 - "GET /api/v1/collections/ManojData3?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:16:10] ::1:53079 - "POST /api/v1/collections/b477e59d-c73c-4e68-9b83-0b72e7909af1/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:17:39] ::1:53091 - "GET /api/v1/collections/ManojData3?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:17:40] ::1:53091 - "POST /api/v1/collections/b477e59d-c73c-4e68-9b83-0b72e7909af1/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2024 13:17:52] Shutting down
+[32mINFO[0m:     [12-01-2024 13:17:52] Waiting for application shutdown.
+[32mINFO[0m:     [12-01-2024 13:17:52] Application shutdown complete.
+[32mINFO[0m:     [12-01-2024 13:17:52] Finished server process [[36m6229[0m]
+[32mINFO[0m:     [12-01-2024 13:17:55] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [12-01-2024 13:17:55] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [12-01-2024 13:17:55] Starting component System
+[36mDEBUG[0m:    [12-01-2024 13:17:55] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [12-01-2024 13:17:55] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [12-01-2024 13:17:55] Starting component SqliteDB
+[36mDEBUG[0m:    [12-01-2024 13:17:55] Starting component Posthog
+[36mDEBUG[0m:    [12-01-2024 13:17:55] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [12-01-2024 13:17:55] Starting component SegmentAPI
+[32mINFO[0m:     [12-01-2024 13:17:55] Started server process [[36m6823[0m]
+[32mINFO[0m:     [12-01-2024 13:17:55] Waiting for application startup.
+[32mINFO[0m:     [12-01-2024 13:17:55] Application startup complete.
+[32mINFO[0m:     [12-01-2024 13:17:55] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [12-01-2024 13:20:41] ::1:53112 - "GET /api/v1/collections/ManojData3?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [12-01-2024 13:20:42] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [12-01-2024 13:20:42] ::1:53112 - "POST /api/v1/collections/b477e59d-c73c-4e68-9b83-0b72e7909af1/query HTTP/1.1" 200
+[32mINFO[0m:     [19-01-2024 13:47:53] Shutting down
+[32mINFO[0m:     [19-01-2024 13:47:53] Waiting for application shutdown.
+[32mINFO[0m:     [19-01-2024 13:47:53] Application shutdown complete.
+[32mINFO[0m:     [19-01-2024 13:47:53] Finished server process [[36m6823[0m]

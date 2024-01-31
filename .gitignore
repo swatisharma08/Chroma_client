@@ -1,3 +1,4 @@
 node_modules
 dbpath
 .env
+.DS_Store

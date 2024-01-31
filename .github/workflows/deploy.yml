@@ -28,4 +28,4 @@ jobs:
           cd /root/Chroma_client
           git pull
           yarn install --frozen-lockfile
-          pm2 start runner.config.js
+          pm2 start runner.config.cjs
